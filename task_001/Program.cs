@@ -9,8 +9,8 @@ Console.Write("Введите целое трёхзначное число: ");
 string inputString = Console.ReadLine();
 int inputNumber = int.Parse(inputString);
 
-int secondNumber = inputNumber / 10 % 10;
-char secondChar = inputString[1];
+int secondNumber = inputNumber / 10 % 10; // numerical calculation
+char secondChar = inputString[1]; // string manipulation
 
 Console.WriteLine("Вторая цифра числа: " + secondNumber);
 Console.WriteLine("Второй символ строки: " + secondChar);

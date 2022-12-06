@@ -10,9 +10,9 @@ int inputDay = int.Parse(Console.ReadLine());
 
 string OutputDay(int day) {
 
-    string weekDay = "не выходной день";
-    string weekEnd = "выходной день!";
-    string dash = " – ";
+    string weekDay = "не выходной день"; // predefined message for weekdays
+    string weekEnd = "выходной день!"; // predefined message for weekends
+    string dash = " – "; //  delimiting character
 
     string[] days = {"не является днем недели",
                         "понедельник",
