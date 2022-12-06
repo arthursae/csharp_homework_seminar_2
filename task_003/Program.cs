@@ -46,7 +46,7 @@ string OutputDay(int day) {
             return days[day] + dash + weekEnd; // weekend
             break;
         default:
-            return "Цифра " + day + " не является днем недели!"; // exception
+            return "Цифра " + day + dash + days[0]; // exception
             break;
         
     }
