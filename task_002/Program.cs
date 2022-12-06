@@ -10,7 +10,7 @@ int inputNumber = int.Parse(Console.ReadLine());
 
 void GetTheThirdNumber(int someNumber) {
 
-    someNumber = Math.Abs(someNumber); // in case the number is negative
+    if (someNumber < 0) someNumber = Math.Abs(someNumber); // in case the number is negative
 
     if (someNumber < 100) {
 
