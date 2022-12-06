@@ -25,32 +25,12 @@ string OutputDay(int day) {
 
     switch(day) {
 
-        case 1:
-            return days[day] + dash + weekDay;
+        case > 0 and <= 5:
+            return days[day] + dash + weekDay; // weekdays
             break;
 
-        case 2:
-            return days[day] + dash + weekDay;
-            break;
-
-        case 3:
-            return days[day] + dash + weekDay;
-            break;
-
-        case 4:
-            return days[day] + dash + weekDay;
-            break;
-
-        case 5:
-            return days[day] + dash + weekDay;
-            break;
-
-        case 6:
-            return days[day] + dash + weekEnd; // weekend
-            break;
-
-        case 7:
-            return days[day] + dash + weekEnd; // weekend
+        case > 5 and <= 7:
+            return days[day] + dash + weekEnd; // weekends
             break;
 
         default:
